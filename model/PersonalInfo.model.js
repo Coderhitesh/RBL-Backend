@@ -11,7 +11,7 @@ const PersonalSchema = new mongoose.Schema({
         type : Number,
     },
     panCardNumber : {
-        type : Number,
+        type : String,
     },
     postalCode : {
         type : Number,

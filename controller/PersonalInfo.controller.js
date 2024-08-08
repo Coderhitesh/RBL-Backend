@@ -27,6 +27,7 @@ exports.CreatePersonalInfo = async(req , res) => {
 }
 
 exports.GetPersonalInfo = async(req,res)=>{
+  // hitesh
     try {
         const PersonalInfo =  await PersonalInfoModel.find()
         res.status(200).json({
